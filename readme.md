@@ -87,7 +87,7 @@ if (document.fullscreenEnabled) {
 
 ## Support
 
-[Supported browsers](http://caniuse.com/fullscreen)
+[Supported browsers](https://caniuse.com/#feat=fullscreen)
 
 **Note:** In order to use this package in Internet Explorer, you need a [`Promise` polyfill](https://github.com/stefanpenner/es6-promise).
 
@@ -275,7 +275,7 @@ $('#new-page-btn').click(() => {
 	const iframe = document.createElement('iframe')
 
 	iframe.setAttribute('id', 'external-iframe');
-	iframe.setAttribute('src', 'http://new-page-website.com');
+	iframe.setAttribute('src', 'https://new-page-website.com');
 	iframe.setAttribute('frameborder', 'no');
 	iframe.style.position = 'absolute';
 	iframe.style.top = '0';
@@ -292,7 +292,7 @@ $('#new-page-btn').click(() => {
 
 ## Resources
 
-- [Using the Fullscreen API in web browsers](http://hacks.mozilla.org/2012/01/using-the-fullscreen-api-in-web-browsers/)
+- [Using the Fullscreen API in web browsers](https://hacks.mozilla.org/2012/01/using-the-fullscreen-api-in-web-browsers/)
 - [MDN - Fullscreen API](https://developer.mozilla.org/en/DOM/Using_full-screen_mode)
-- [W3C Fullscreen spec](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html)
-- [Building an amazing fullscreen mobile experience](http://www.html5rocks.com/en/mobile/fullscreen/)
+- [W3C Fullscreen spec](https://fullscreen.spec.whatwg.org/)
+- [Building an amazing fullscreen mobile experience](https://developers.google.com/web/fundamentals/native-hardware/fullscreen/)
